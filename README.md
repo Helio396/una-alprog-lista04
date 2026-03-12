@@ -7,6 +7,34 @@
 
 
 
+--01_validador_idade.por--
+
+
+--Descrição --
+
+Este algoritmo simula o sistema de controle de acesso de um site de jogos,
+que precisa restringir o uso da plataforma para menores de idade.
+O programa deve solicitar ao usuário:
+
+Ano de nascimento
+Ano atual
+
+Com essas informações, o algoritmo calcula a idade do usuário, 
+subtraindo o ano de nascimento do ano atual.
+Após calcular a idade, o sistema verifica se o usuário possui 18 anos ou mais:
+
+Se a idade for maior ou igual a 18, o acesso ao site é permitido.
+Caso contrário, o sistema deve exibir a mensagem informando que o acesso foi negado por o usuário ser menor de idade.
+
+Esse tipo de lógica é muito utilizado em sistemas de cadastro, 
+plataformas online e serviços que possuem restrição de idade.
+A regra usada para o cálculo é:
+
+Idade = AnoAtual - AnoNascimento
+E a verificação acontece com a condição:
+idade >= 18
+
+--Fluxograma--
 
 
 
