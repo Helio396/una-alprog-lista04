@@ -195,18 +195,29 @@ gráficos computacionais e sistemas educacionais de geometria.
 
 --Fluxograma--
 
+flowchart TD
 
+A[Início] --> B[Digite o lado A]
+B --> C[Ler lado A]
+C --> D[Digite o lado B]
+D --> E[Ler lado B]
+E --> F[Digite o lado C]
+F --> G[Ler lado C]
 
+G --> H{Formam triângulo?}
 
+H -->|Não| I[Mostrar: Não forma triângulo]
+I --> J[Fim]
 
+H -->|Sim| K{Todos os lados iguais?}
 
+K -->|Sim| L[Triângulo Equilátero]
+L --> J
 
+K -->|Não| M{Dois lados iguais?}
 
+M -->|Sim| N[Triângulo Isósceles]
+N --> J
 
-
-
-
-
-
-
-
+M -->|Não| O[Triângulo Escaleno]
+O --> J
