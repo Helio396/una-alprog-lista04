@@ -86,7 +86,31 @@ H --> I[Fim]
 --03_sistema_notas.por--
 
 
+--Descrição--
 
+Este algoritmo simula o funcionamento de um sistema escolar responsável por avaliar a 
+situação final de um aluno com base em suas notas. O programa solicita duas notas do estudante
+e calcula a média simples entre elas. Após calcular a média, o sistema analisa o resultado e 
+classifica o aluno em uma das três situações possíveis:
+
+Aprovado → quando a média é maior ou igual a 7.0
+
+Recuperação → quando a média está entre 5.0 e 6.9
+
+Reprovado → quando a média é menor que 5.0
+
+Esse tipo de lógica é muito comum em sistemas acadêmicos, plataformas educacionais 
+e softwares de gestão escolar, pois permite automatizar a avaliação dos alunos de
+forma rápida e padronizada.
+A média é calculada utilizando a fórmula:
+
+Media = \frac{Nota1 + Nota2}{2}
+
+Após o cálculo da média, o algoritmo utiliza condições para decidir qual mensagem
+deve ser exibida ao usuário.
+
+
+--Fluxograma--
 
 
 
