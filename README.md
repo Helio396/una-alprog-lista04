@@ -192,7 +192,6 @@ Esse tipo de lógica é comum em softwares de engenharia, modelagem estrutural,
 gráficos computacionais e sistemas educacionais de geometria.
 
 
-
 --Fluxograma--
 
 flowchart TD
