@@ -36,6 +36,29 @@ idade >= 18
 
 --Fluxograma--
 
+flowchart TD
+A[Início] --> B[Digite o ano de nascimento]
+B --> C[Ler ano de nascimento]
+C --> D[Digite o ano atual]
+D --> E[Ler ano atual]
+E --> F[Calcular idade = ano atual - ano nascimento]
+F --> G{Idade >= 18?}
+G -->|Sim| H[Mostrar: Acesso Permitido]
+G -->|Não| I[Mostrar: Acesso Negado<br>Usuário menor de idade]
+H --> J[Fim]
+I --> J[Fim]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
