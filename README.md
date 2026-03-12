@@ -50,12 +50,40 @@ H --> J[Fim]
 I --> J[Fim]
 
 
+--02_radar_velocidade--
+
+--descrição--
+
+Este algoritmo simula o funcionamento de um sistema automatizado de fiscalização de trânsito, utilizado por uma prefeitura em uma avenida cujo limite de velocidade é 80 km/h.
+O programa deve solicitar ao usuário a velocidade do veículo. Após receber essa informação, o sistema verifica se o motorista ultrapassou o limite permitido.
+Se a velocidade for maior que 80 km/h, o sistema calcula o excesso de velocidade e aplica uma multa de R$ 7,00 para cada km/h acima do limite.
+Se a velocidade estiver igual ou abaixo do limite, o sistema apenas exibe a mensagem “Boa viagem!”.
+Esse tipo de lógica é comum em sistemas de radares eletrônicos, controle de tráfego e monitoramento de infrações.
+As regras usadas no algoritmo são:
+
+Calcular o excesso de velocidade:
+
+Excesso = Velocidade - 80
+
+Calcular o valor da multa:
+
+Multa = Excesso \cdot 7
+
+--Fluxograma-- 
+
+flowchart TD
+A[Início] --> B[Digite a velocidade do carro]
+B --> C[Ler velocidade]
+C --> D{Velocidade > 80?}
+D -->|Sim| E[Calcular excesso = velocidade - 80]
+E --> F[Calcular multa = excesso * 7]
+F --> G[Mostrar valor da multa]
+D -->|Não| H[Mostrar: Boa viagem!]
+G --> I[Fim]
+H --> I[Fim]
 
 
-
-
-
-
+--03_sistema_notas.por--
 
 
 
