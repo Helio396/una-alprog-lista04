@@ -1,8 +1,9 @@
 # una-alprog-lista04
 
+Olá meu nome é Hélio dos Santos Mendonça
 
-
-
+Estou começando a todo vapor na programação e tentando aprender com meus erros e me adaptar aos cenários que irei enfrentar.
+Abaixo você encontra a documentação dos meus projetos deste repositório:
 
 
 
