@@ -112,9 +112,20 @@ deve ser exibida ao usuário.
 
 --Fluxograma--
 
-
-
-
+flowchart TD
+A[Início] --> B[Digite a primeira nota]
+B --> C[Ler nota1]
+C --> D[Digite a segunda nota]
+D --> E[Ler nota2]
+E --> F[Calcular média = (nota1 + nota2) / 2]
+F --> G{Média >= 7?}
+G -->|Sim| H[Mostrar: Aprovado]
+G -->|Não| I{Média >= 5?}
+I -->|Sim| J[Mostrar: Recuperação]
+I -->|Não| K[Mostrar: Reprovado]
+H --> L[Fim]
+J --> L
+K --> L
 
 
 --04_par_impar.por--
@@ -143,3 +154,29 @@ D -->|Sim| E[Mostrar: Número PAR]
 D -->|Não| F[Mostrar: Número ÍMPAR]
 E --> G[Fim]
 F --> G[Fim]
+
+
+--05_classificador_triangulos.por--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
