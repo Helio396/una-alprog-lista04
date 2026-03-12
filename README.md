@@ -159,11 +159,41 @@ F --> G[Fim]
 --05_classificador_triangulos.por--
 
 
+--Descrição--
+
+Este algoritmo simula um software de engenharia responsável por analisar três medidas e 
+determinar se elas podem formar um triângulo. Caso seja possível, o sistema também 
+identifica qual é o tipo do triângulo. Primeiramente, o programa solicita ao usuário três 
+valores numéricos, que representam os lados de uma possível estrutura triangular.
+Antes de qualquer classificação, o algoritmo precisa validar se os três valores realmente podem
+formar um triângulo. Para isso, utiliza a regra conhecida como Triangle Inequality Theorem, que 
+determina que:
+
+a soma de dois lados deve ser sempre maior que o terceiro lado
+
+Ou seja, as seguintes condições precisam ser verdadeiras:
+
+ladoA + ladoB > ladoC
+ladoA + ladoC > ladoB
+ladoB + ladoC > ladoA
+
+Se qualquer uma dessas condições não for atendida, o programa informa que os valores não 
+formam um triângulo e encerra a execução (princípio conhecido como Fail Fast, evitando 
+processamento desnecessário).
+Caso os valores formem um triângulo válido, o algoritmo classifica a figura em um dos três tipos:
+
+Equilátero → todos os lados são iguais
+
+Isósceles → dois lados são iguais
+
+Escaleno → todos os lados são diferentes
+
+Esse tipo de lógica é comum em softwares de engenharia, modelagem estrutural, 
+gráficos computacionais e sistemas educacionais de geometria.
 
 
 
-
-
+--Fluxograma--
 
 
 
